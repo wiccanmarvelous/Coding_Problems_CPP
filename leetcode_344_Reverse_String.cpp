@@ -1,12 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-class Solution {
+class Solution
+{
 public:
-    void reverseString(vector<char>& s) {
+    void reverseString(vector<char> &s)
+    {
         int n = s.size();
-        for (int i = 0; i < n/2; i++){
+        for (int i = 0; i < n / 2; i++)
+        {
             swap(s[i], s[n - 1 - i]);
         }
     }
@@ -15,7 +17,7 @@ public:
 // class Solution {
 // public:
 //     void reverseString(vector<char>& s) {
-        
+
 //         for (int i = 0; i < s.size()/2; i++){
 //             swap(s[i], s[s.size() - 1 - i]);
 //         }
