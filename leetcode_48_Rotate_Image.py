@@ -1,5 +1,5 @@
 class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate(self, matrix):
         matrix.reverse()
         for i in range(len(matrix)):
             for j in range(len(matrix[i])):
