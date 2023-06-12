@@ -1,2 +1,4 @@
 *.exe
 *.json
+temp.cpp
+temp.py
